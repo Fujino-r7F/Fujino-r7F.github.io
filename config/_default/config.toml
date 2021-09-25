@@ -7,7 +7,6 @@ defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false 
 hasCJKLanguage = true
 
-googleAnalytics = "G-YX2Y3WPGQV"
 summaryLength = 70
 buildFuture = true
 
@@ -18,7 +17,7 @@ paginate = 13
 rssLimit = 100
 
 enableGitInfo = false
-googleAnalytics = ""
+googleAnalytics = "G-YX2Y3WPGQV"
 
 [markup]
   [markup.goldmark]
