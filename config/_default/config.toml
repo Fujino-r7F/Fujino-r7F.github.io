@@ -1,6 +1,6 @@
 baseURL = "https://fujino-r7F.github.io"
 title = "Home"
-theme = "zzo"
+theme = "hugo-theme-zzo"
 publishDir = "docs"
 canonifyurls = true
 defaultContentLanguage = "jp"
