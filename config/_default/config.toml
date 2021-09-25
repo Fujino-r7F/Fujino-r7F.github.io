@@ -3,7 +3,7 @@ title = "Home"
 theme = "hugo-theme-zzo"
 publishDir = "docs"
 canonifyurls = true
-defaultContentLanguage = "jp"
+defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false 
 hasCJKLanguage = true
 

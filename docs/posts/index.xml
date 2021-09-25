@@ -10,7 +10,7 @@
     <link>https://fujino-r7F.github.io/posts/</link>
     <description>Recent content in Posts on ただ勉強したことを上げるだけ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
+    <language>ja</language>
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 25 Sep 2021 14:54:36 +0900</lastBuildDate>
     
@@ -19,7 +19,7 @@
 
       
       <item>
-        <title>Test</title>
+        <title>Elastic Beanstalkのデプロイ方法まとめ</title>
         <link>https://fujino-r7F.github.io/posts/test/</link>
         <pubDate>Sat, 25 Sep 2021 14:54:36 +0900</pubDate>
         
@@ -33,6 +33,12 @@
         
         
           
+            
+              <category>AWS</category>
+            
+          
+            
+              <category>DVA</category>
             
           
         
