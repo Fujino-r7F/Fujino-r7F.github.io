@@ -17,7 +17,7 @@ paginate = 13
 rssLimit = 100
 
 enableGitInfo = false
-googleAnalytics = "G-YX2Y3WPGQV"
+googleAnalytics = ""
 
 [markup]
   [markup.goldmark]
