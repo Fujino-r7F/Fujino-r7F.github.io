@@ -46,7 +46,7 @@
         
         <atom:modified>Sat, 25 Sep 2021 14:54:36 +0900</atom:modified>
         <guid>https://fujino-r7F.github.io/posts/test/</guid>
-        <description></description>
+        <description>はじめに AWS認定DVA等で良く問われる、Elastic beanstalkのデプロイ方式についてまとめてます。 各デプロイ方式について All at once 同</description>
         
         <dc:creator>test</dc:creator>
         

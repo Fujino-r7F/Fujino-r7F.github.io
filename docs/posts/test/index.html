@@ -1388,7 +1388,7 @@
     "datePublished": "2021-09-25T14:54:36+09:00",
     "dateModified": "2021-09-25T14:54:36+09:00",
     "url" : "https://fujino-r7F.github.io/posts/test/",
-    "description": "",
+    "description": "はじめに AWS認定DVA等で良く問われる、Elastic beanstalkのデプロイ方式についてまとめてます。 各デプロイ方式について All at once 同",
     "keywords": ["AWS","DVA"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1572,7 +1572,7 @@
 <div class="single__infos">
   <time class="single__info" title="作成日">📅&nbsp;2021/9/25 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="読了時間"> ☕&nbsp;0&nbsp;分で読めます </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="読了時間"> ☕&nbsp;2&nbsp;分で読めます </span>
   
   <span class="single__info">
     
@@ -1594,7 +1594,62 @@
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      
+      <h2 id="はじめに">はじめに</h2>
+<p>AWS認定DVA等で良く問われる、Elastic beanstalkのデプロイ方式についてまとめてます。</p>
+<h2 id="各デプロイ方式について">各デプロイ方式について</h2>
+<ul>
+<li>All at once<br />
+同時にすべてのインスタンスに新しいバージョンをデプロイする。
+<ul>
+<li>利点<br />
+所要時間が最も短い</li>
+<li>注意点<br />
+短時間のダウンタイムが発生する <br />
+古いバージョンと新しいバージョンが混在する時間がある</li>
+</ul>
+</li>
+<li>Rolling<br />
+バッチサイズの分だけインスタンスをLBからデタッチして新しいバージョンをデプロイする。 <br />
+LBに再アタッチした後に、全てのインスタンスの更新が終わるまで繰り返す。
+<ul>
+<li>利点<br />
+ダウンタイムを回避できる</li>
+<li>注意点<br />
+All at onceに比べてデプロイ時間は長くなる <br />
+ダウンタイムはないが、デプロイ中インスタンスの台数が減る <br />
+古いバージョンと新しいバージョンが混在する時間がある</li>
+</ul>
+</li>
+<li>Rolling with additional batch <br />
+バッチサイズの分だけインスタンスを追加作成してそのインスタンスに新しいバージョンをデプロイする。 <br />
+デプロイが通った後に、バッチサイズの分だけLBから既存のインスタンスをデタッチして、デプロイした新規インスタンスをアタッチする。 <br />
+その後は既存インスタンスにデプロイを繰り返す。 <br />
+最後に一番初めに追加作成したインスタンスを落とす。
+<ul>
+<li>利点<br />
+ダウンタイムを回避できる <br />
+初めに新規インスタンスを追加作成しているため、デプロイ中でもインスタンスの台数が保たれる</li>
+<li>注意点<br />
+Rollingに比べてデプロイ時間が長くなる <br />
+古いバージョンと新しいバージョンが混在する時間がある</li>
+</ul>
+</li>
+<li>Immutable <br />
+新しいインスタンスを1台立ち上げてデプロイする <br />
+ヘルスチェックが通れば、現在のインスタンス数-1の数だけ新しいインスタンスを立ち上げてデプロイする <br />
+全てのヘルスチェックが通った後に、既存のインスタンスを落とす
+<ul>
+<li>利点<br />
+ダウンタイムを回避できる <br />
+デプロイが失敗した際に迅速かつ安全にロールバックできる</li>
+<li>注意点 <br />
+Rolling with additonal batchに比べてデプロイ時間が長くなる <br />
+古いバージョンと新しいバージョンが混在する時間がある <br />
+デプロイ中は一時的にインスタンス数が2倍になるため、料金がかかる</li>
+</ul>
+</li>
+</ul>
+
     </article>
     
     
@@ -2173,7 +2228,12 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#各デプロイ方式について">各デプロイ方式について</a></li>
+  </ul>
+</nav>
   </div>
 </section>
 
