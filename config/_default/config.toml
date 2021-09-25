@@ -1,9 +1,10 @@
-baseURL = "http://example.org"
-title = "ただ勉強したことを残す場"
-theme = "hugo-theme-zzo"
-
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+baseURL = "https://fujino-r7F.github.io"
+title = "Home"
+theme = "zzo"
+publishDir = "docs"
+canonifyurls = true
+defaultContentLanguage = "jp"
+defaultContentLanguageInSubdir = false 
 hasCJKLanguage = true
 
 summaryLength = 70

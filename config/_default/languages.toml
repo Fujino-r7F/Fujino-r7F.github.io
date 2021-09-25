@@ -1,0 +1,6 @@
+[jp]
+  title = "Home"
+  languageName = "Japanese"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/jp"
