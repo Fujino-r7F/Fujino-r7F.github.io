@@ -7,24 +7,24 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Posts on ただ勉強したことを上げるだけ</title>
-    <link>https://fujino-r7F.github.io/posts/</link>
+    <link>https://www.tech-ry.com/posts/</link>
     <description>Recent content in Posts on ただ勉強したことを上げるだけ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 25 Sep 2021 22:26:08 +0900</lastBuildDate>
     
-        <atom:link href="https://fujino-r7F.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.tech-ry.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>GoogleアナリティクスでUAから始まるトラッキングIDがない時の対処法</title>
-        <link>https://fujino-r7F.github.io/posts/ga-help/</link>
+        <link>https://www.tech-ry.com/posts/ga-help/</link>
         <pubDate>Sat, 25 Sep 2021 22:26:08 +0900</pubDate>
         
         <atom:modified>Sat, 25 Sep 2021 22:26:08 +0900</atom:modified>
-        <guid>https://fujino-r7F.github.io/posts/ga-help/</guid>
+        <guid>https://www.tech-ry.com/posts/ga-help/</guid>
         <description>プロパティを作成するときに詳細オプションを表示をクリック その後、ユニバーサルアナリティクスプロパティの作成をクリック 後は、そのまま手順に従っ</description>
         
         <dc:creator>test</dc:creator>
@@ -52,11 +52,11 @@
       
       <item>
         <title>Elastic Beanstalkのデプロイ方法まとめ</title>
-        <link>https://fujino-r7F.github.io/posts/test/</link>
+        <link>https://www.tech-ry.com/posts/test/</link>
         <pubDate>Sat, 25 Sep 2021 14:54:36 +0900</pubDate>
         
         <atom:modified>Sat, 25 Sep 2021 14:54:36 +0900</atom:modified>
-        <guid>https://fujino-r7F.github.io/posts/test/</guid>
+        <guid>https://www.tech-ry.com/posts/test/</guid>
         <description>はじめに AWS認定DVA等で良く問われる、Elastic beanstalkのデプロイ方式についてまとめてます。 各デプロイ方式について All at once 同</description>
         
         <dc:creator>test</dc:creator>
