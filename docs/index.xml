@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 25 Sep 2021 22:26:08 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 19:50:57 +0900</lastBuildDate>
     
         <atom:link href="https://www.tech-ry.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -38,6 +38,38 @@
         
       
 
+      
+      <item>
+        <title>DNSに関してまとめてみた</title>
+        <link>https://www.tech-ry.com/posts/dns/</link>
+        <pubDate>Sun, 26 Sep 2021 19:50:57 +0900</pubDate>
+        
+        <atom:modified>Sun, 26 Sep 2021 19:50:57 +0900</atom:modified>
+        <guid>https://www.tech-ry.com/posts/dns/</guid>
+        <description>はじめに ブログを始めるに当たってドメイン周りの設定をした際に、DNSに関して理解が足りていないと感じたのでまとめてみました。 そもそもDNSと</description>
+        
+        <dc:creator>test</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>DNS</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>GoogleアナリティクスでUAから始まるトラッキングIDがない時の対処法</title>

@@ -12,11 +12,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 25 Sep 2021 22:26:08 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 19:50:57 +0900</lastBuildDate>
     
         <atom:link href="https://www.tech-ry.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>DNS</title>
+        <link>https://www.tech-ry.com/tags/dns/</link>
+        <pubDate>Sun, 26 Sep 2021 19:50:57 +0900</pubDate>
+        
+        
+        <guid>https://www.tech-ry.com/tags/dns/</guid>
+        <description></description>
+        
+        <dc:creator>test</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>GA</title>
