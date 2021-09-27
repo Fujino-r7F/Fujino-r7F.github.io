@@ -12,11 +12,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 26 Sep 2021 19:50:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Sep 2021 21:02:55 +0900</lastBuildDate>
     
         <atom:link href="https://www.tech-ry.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>SQL</title>
+        <link>https://www.tech-ry.com/tags/sql/</link>
+        <pubDate>Mon, 27 Sep 2021 21:02:55 +0900</pubDate>
+        
+        
+        <guid>https://www.tech-ry.com/tags/sql/</guid>
+        <description></description>
+        
+        <dc:creator>test</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>DNS</title>
