@@ -20,11 +20,11 @@
       
       <item>
         <title>Elastic Beanstalkのデプロイ方法まとめ</title>
-        <link>https://www.tech-ry.com/posts/test/</link>
+        <link>https://www.tech-ry.com/posts/elastic_beanstalk_deploy/</link>
         <pubDate>Sat, 25 Sep 2021 14:54:36 +0900</pubDate>
         
         <atom:modified>Sat, 25 Sep 2021 14:54:36 +0900</atom:modified>
-        <guid>https://www.tech-ry.com/posts/test/</guid>
+        <guid>https://www.tech-ry.com/posts/elastic_beanstalk_deploy/</guid>
         <description>はじめに AWS認定DVA等で良く問われる、Elastic beanstalkのデプロイ方式についてまとめてます。 各デプロイ方式について All at once 同</description>
         
         <dc:creator>test</dc:creator>
@@ -44,6 +44,8 @@
         
         
           
+            
+              <category>AWS</category>
             
           
         

@@ -15,7 +15,7 @@ tags:
 series:
 -
 categories:
--
+- AWS
 image:
 ---
 

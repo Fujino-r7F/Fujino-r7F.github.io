@@ -1,5 +1,12 @@
+
 [[main]]
   identifier = "archive"
   name = "Archive"
   url = "archive"
   weight = 2
+
+[[main]]
+  identifier = "categories"
+  name = "categories"
+  url = "categories"
+  weight = 1

@@ -7,14 +7,14 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>DNS on ただ勉強したことを上げるだけ</title>
-    <link>https://www.tech-ry.com/tags/dns/</link>
+    <link>https://www.tech-ry.com/categories/dns/</link>
     <description>Recent content in DNS on ただ勉強したことを上げるだけ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 26 Sep 2021 19:50:57 +0900</lastBuildDate>
     
-        <atom:link href="https://www.tech-ry.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.tech-ry.com/categories/dns/index.xml" rel="self" type="application/rss+xml" />
     
 
       

@@ -14,7 +14,7 @@ tags:
 series:
 -
 categories:
--
+- エラー対処法
 image:
 ---
 テーブル名を[]で囲む

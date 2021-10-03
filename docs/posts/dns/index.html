@@ -1503,6 +1503,18 @@ if (!doNotTrack) {
 
       
         <li class="navbarm__menu--item ">
+          <a href="https://www.tech-ry.com/categories">categories</a>
+        </li>
+      
+      
+    
+      
+      
+      
+      
+
+      
+        <li class="navbarm__menu--item ">
           <a href="https://www.tech-ry.com/archive">Archive</a>
         </li>
       
@@ -1522,18 +1534,20 @@ if (!doNotTrack) {
         </a>
       </li>
     
-      <li class="navbarm__menu--item ">
-        <a href="https://www.tech-ry.com/series" class="navbarm__menu--term" data-index="2">
-          連載
-        </a>
-      </li>
-    
   </ul>
 </div>
   <div class="navbar__menu">
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  <a href="https://www.tech-ry.com/categories" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">categories</a>
   
   
   
@@ -1595,7 +1609,7 @@ if (!doNotTrack) {
 <div class="single__infos">
   <time class="single__info" title="作成日">📅&nbsp;2021/9/26 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="読了時間"> ☕&nbsp;2&nbsp;分で読めます </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="読了時間"> ☕&nbsp;3&nbsp;分で読めます </span>
   
   <span class="single__info">
     
@@ -1647,7 +1661,30 @@ if (!doNotTrack) {
 <h3 id="ネームサーバ">ネームサーバ</h3>
 <p>NSリソースレコードによって指定されるサーバーで、権威DNSサーバとも呼ばれる。</p>
 <h2 id="dnsレコードについて">DNSレコードについて</h2>
-<p>別記事でまとめる予定。。。</p>
+<p>DNSの動作のためにはDNSレコードという設定情報が必要になる。</p>
+<p>DNSレコードの種類には下記のようなモノがある</p>
+<ol>
+<li>Aレコード<br />
+ドメイン名に対してIPv4のアドレスを回答する <br />
+AはAddressの頭文字から来てるらしい</li>
+<li>AAAAレコード<br />
+ドメイン名に対してIPv6のアドレスを回答する <br />
+32bit(IPv4)→128bit(IPv6)で長さが4倍だからAAAAらしい</li>
+<li>PTRレコード <br />
+IPアドレスからホスト名を参照する際に使用されるレコード</li>
+<li>SOAレコード <br />
+Start of Authority recordの略で権威DNSサーバが管理するゾーンに関する情報を保存するレコード</li>
+<li>MXレコード <br />
+Mail exchangeの略 <br />
+対象ドメイン宛メールの配送先のメールサーバのホスト名を定義しておくレコード</li>
+<li>NSレコード <br />
+Name Serverの略 <br />
+ドメインに対して、そのドメインを管理する権威サーバの情報を返す</li>
+<li>CNAMEレコード <br />
+CNAMEレコードはドメイン名に対する別名を定義するレコード</li>
+<li>TXTレコード <br />
+ホスト名に関連づけるテキスト情報を定義するレコード　</li>
+</ol>
 
     </article>
     
