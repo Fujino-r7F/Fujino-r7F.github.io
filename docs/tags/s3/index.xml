@@ -6,15 +6,15 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>AWS on ただ勉強したことを上げるだけ</title>
-    <link>https://www.tech-ry.com/tags/aws/</link>
-    <description>Recent content in AWS on ただ勉強したことを上げるだけ</description>
+    <title>S3 on ただ勉強したことを上げるだけ</title>
+    <link>https://www.tech-ry.com/tags/s3/</link>
+    <description>Recent content in S3 on ただ勉強したことを上げるだけ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 15 Jan 2022 21:06:59 +0900</lastBuildDate>
     
-        <atom:link href="https://www.tech-ry.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.tech-ry.com/tags/s3/index.xml" rel="self" type="application/rss+xml" />
     
 
       
@@ -44,44 +44,6 @@
         
         
           
-            
-          
-        
-        
-          
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>Elastic Beanstalkのデプロイ方法まとめ</title>
-        <link>https://www.tech-ry.com/posts/elastic_beanstalk_deploy/</link>
-        <pubDate>Sat, 25 Sep 2021 14:54:36 +0900</pubDate>
-        
-        <atom:modified>Sat, 25 Sep 2021 14:54:36 +0900</atom:modified>
-        <guid>https://www.tech-ry.com/posts/elastic_beanstalk_deploy/</guid>
-        <description>はじめに AWS認定DVA等で良く問われる、Elastic beanstalkのデプロイ方式についてまとめてます。 各デプロイ方式について All at once 同</description>
-        
-        <dc:creator>test</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>AWS</category>
-            
-          
-            
-              <category>DVA</category>
-            
-          
-        
-        
-          
-            
-              <category>AWS</category>
             
           
         
