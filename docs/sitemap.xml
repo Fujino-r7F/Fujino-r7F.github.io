@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.tech-ry.com/</loc>
-    <lastmod>2022-01-15T21:06:59+09:00</lastmod>
-  </url><url>
-    <loc>https://www.tech-ry.com/tags/aws/</loc>
-    <lastmod>2022-01-15T21:06:59+09:00</lastmod>
+    <lastmod>2022-01-15T21:48:29+09:00</lastmod>
   </url><url>
     <loc>https://www.tech-ry.com/posts/</loc>
-    <lastmod>2022-01-15T21:06:59+09:00</lastmod>
+    <lastmod>2022-01-15T21:48:29+09:00</lastmod>
   </url><url>
     <loc>https://www.tech-ry.com/tags/s3/</loc>
-    <lastmod>2022-01-15T21:06:59+09:00</lastmod>
+    <lastmod>2022-01-15T21:48:29+09:00</lastmod>
+  </url><url>
+    <loc>https://www.tech-ry.com/posts/bucketpolicy/</loc>
+    <lastmod>2022-01-15T21:48:29+09:00</lastmod>
   </url><url>
     <loc>https://www.tech-ry.com/tags/</loc>
+    <lastmod>2022-01-15T21:48:29+09:00</lastmod>
+  </url><url>
+    <loc>https://www.tech-ry.com/tags/aws/</loc>
     <lastmod>2022-01-15T21:06:59+09:00</lastmod>
   </url><url>
     <loc>https://www.tech-ry.com/posts/s3-endpoint/</loc>

@@ -12,19 +12,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 15 Jan 2022 21:06:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jan 2022 21:48:29 +0900</lastBuildDate>
     
         <atom:link href="https://www.tech-ry.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>AWS</title>
-        <link>https://www.tech-ry.com/tags/aws/</link>
-        <pubDate>Sat, 15 Jan 2022 21:06:59 +0900</pubDate>
+        <title>S3</title>
+        <link>https://www.tech-ry.com/tags/s3/</link>
+        <pubDate>Sat, 15 Jan 2022 21:48:29 +0900</pubDate>
         
         
-        <guid>https://www.tech-ry.com/tags/aws/</guid>
+        <guid>https://www.tech-ry.com/tags/s3/</guid>
         <description></description>
         
         <dc:creator>test</dc:creator>
@@ -37,12 +37,12 @@
       </item>
       
       <item>
-        <title>S3</title>
-        <link>https://www.tech-ry.com/tags/s3/</link>
+        <title>AWS</title>
+        <link>https://www.tech-ry.com/tags/aws/</link>
         <pubDate>Sat, 15 Jan 2022 21:06:59 +0900</pubDate>
         
         
-        <guid>https://www.tech-ry.com/tags/s3/</guid>
+        <guid>https://www.tech-ry.com/tags/aws/</guid>
         <description></description>
         
         <dc:creator>test</dc:creator>

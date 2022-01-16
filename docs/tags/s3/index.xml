@@ -12,11 +12,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>©2022, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 15 Jan 2022 21:06:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jan 2022 21:48:29 +0900</lastBuildDate>
     
         <atom:link href="https://www.tech-ry.com/tags/s3/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>S3のバケットポリシーの設定項目についてまとめてみた</title>
+        <link>https://www.tech-ry.com/posts/bucketpolicy/</link>
+        <pubDate>Sat, 15 Jan 2022 21:48:29 +0900</pubDate>
+        
+        <atom:modified>Sat, 15 Jan 2022 21:48:29 +0900</atom:modified>
+        <guid>https://www.tech-ry.com/posts/bucketpolicy/</guid>
+        <description>はじめに S3のバケットポリシーを設定する際のパラメータについてまとめてみました バケットポリシーの設定項目 Version 設定ファイルの文法のバージョン 20</description>
+        
+        <dc:creator>test</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>S3</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>VPCエンドポイントの違いについて</title>
